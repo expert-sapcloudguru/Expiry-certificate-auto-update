@@ -1,0 +1,26 @@
+#
+#Sat Jan 28 08:37:29 UTC 2023
+SF_TIMEOUT=60000
+MAIL_AUTHENTICATION=loginPlain
+SF_CREDS=susercredentials
+MAIL_TO=mahek.panchmatia@amd.com,rajeshkumar.kaveti@amd.com
+address=https\://xxxxx-tmn.hci.us2.hana.ondemand.com/api/v1/
+MAIL_ProxyType=none
+scheduler=<row><cell>dayValue</cell><cell></cell></row><row><cell>monthValue</cell><cell></cell></row><row><cell>yearValue</cell><cell></cell></row><row><cell>dateType</cell><cell>DAILY</cell></row><row><cell>hourValue</cell><cell>10</cell></row><row><cell>minutesValue</cell><cell>00</cell></row><row><cell>timeType</cell><cell>ON_TIME</cell></row><row><cell>timeZone</cell><cell>( UTC 5\:30 ) India Standard Time(IST)</cell></row><row><cell>throwExceptionOnExpiry</cell><cell>true</cell></row><row><cell>triggerType</cell><cell>cron</cell></row><row><cell>noOfSchedules</cell><cell>1</cell></row><row><cell>schedule1</cell><cell>0+0+10+?+*+*+*&amp;trigger.timeZone\=IST</cell></row>
+SF_THROW_EXCEPTION=false
+MAIL_AUTH=loginPlain
+SF_PROXY=default
+MAIL_CREDENTIALS=SMTP
+SF_METHOD_GET=GET
+SF_AUTH=Basic
+SCI_CREDENTIALS=susercredentials
+MAIL_CREDS=
+MAIL_PROXY_TYPE=none
+MAIL_PROTECTION=starttls_optional
+MAIL_FROM=a1.CPIMail@amd.com
+SF_ADDRESS_TOKEN=https\://xxxxx-tmn.hci.us2.hana.ondemand.com/api/v1/
+SF_ADDRESS=https\://xxxxx-tmn.hci.us2.hana.ondemand.com/api/v1/CertificateResources('${property.Hexalias}')/$value?update\=true&fingerprintVerified\=true
+SF_METHOD=PUT
+MAIL_ADDRESS=smtp.office365.com
+Alias\ Names=key-alias
+MAIL_SUBJECT=Certificate Expiry Notification - QA

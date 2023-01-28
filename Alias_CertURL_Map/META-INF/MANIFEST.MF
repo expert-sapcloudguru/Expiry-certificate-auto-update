@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: Alias_CertURL_Map
+Bundle-Name: Alias_CertURL_Map
+Bundle-Version: 1.0.0
+Bundle-ManifestVersion: 2
+Bundle-Activator: com.sap.xi.mapping.camel.valmap.ValueMappingActivato
+ r
+SAP-NodeType: IFLMAP
+Import-Package: com.sap.xi.mapping.camel.valmap
+SAP-BundleType: ValueMapping
+Import-Service: 
+
